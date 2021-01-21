@@ -1,0 +1,223 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mastermind</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/page.css">
+    <link rel="stylesheet" href="styles/game.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Mastermind logo">
+        <h1>Mastermind</h1>
+    </header>
+    <main>
+        <nav>
+            <a href="https://en.wikipedia.org/wiki/Mastermind_(board_game)" target="_blank">Rules</a>
+            <a href="#">Quit</a>
+        </nav>
+        <section id="game-area">
+            <div id="play-area">
+                <div id="codemaker">
+                    <h2>Codemaker's Code</h2>
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="guess">
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <div class="feedback">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="guess">
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <div class="feedback">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="guess">
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <div class="feedback">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="guess">
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <div class="feedback">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="guess">
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <div class="feedback">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="guess">
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <div class="feedback">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="guess">
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <div class="feedback">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="guess">
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <div class="feedback">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="guess">
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <div class="feedback">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="guess current">
+                    <div class="code">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <div class="feedback">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="spawners">
+                <span id="red" class="circle red"></span>
+                <span id="green" class="circle green"></span>
+                <span id="yellow" class="circle yellow"></span>
+                <span id="blue" class="circle blue"></span>
+                <span id="purple" class="circle purple"></span>
+                <span id="aqua" class="circle aqua"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="credits">
+            <p>&copy; 2021 CSE3 20, Delft</p>
+        </section>
+        <section id="statistics">
+            <ul>
+                <li><span id="winsGuest">#</span> codes broken</li>
+                <li><span id="winsHost">#</span> masterminds</li>
+                <li><span id="currentGames">#</span> current games</li>
+                <li><span id="playersInQueue">#</span> players in queue</li>
+            </ul>
+        </section>
+    </footer>
+
+    <script src="scripts/game.js" defer></script>
+</body>
+
+</html>

@@ -1,5 +1,3 @@
-Gruvbox inspired color scheme
-
 Pin colors:
     red #cc241d
     green #98971a
@@ -8,8 +6,10 @@ Pin colors:
     purple #b16286
     aqua #689d6a
 Feedback colors:
-    black #282828
-    white #ebdbb2
+    black #1d2021
+    dark #282828
+    white #fbf1c7
+    light #ebdbb2
 UI colors:
     background black
     foreground white

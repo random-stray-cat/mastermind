@@ -1,0 +1,157 @@
+/* Variables */
+
+:root {
+    --color-red: #cc241d;
+    --color-green: #98971a;
+    --color-yellow: #d79921;
+    --color-blue: #458588;
+    --color-purple: #b16286;
+    --color-aqua: #689d6a;
+    --color-black: #1d2021;
+    --color-dark: #282828;
+    --color-white: #fbf1c7;
+    --color-light: #ebdbb2;
+    --color-background: var(--color-dark);
+    --color-foreground: var(--color-light);
+}
+
+/* Adjustments */
+
+/* UI elements are scaled to 77.8% to make room for the board */
+
+header {
+    /* Structure */
+    height: 100px;
+}
+
+header h1 {
+    /* View */
+    font-size: 42px;
+}
+
+nav a {
+    /* Display */
+    width: 156px;
+    padding: 16px 12px;
+    /* View */
+    border-width: 4px;
+    font-size: 28px;
+}
+
+/* Game board */
+
+#game-area {
+    /* Structure */
+    width: 600px;
+    height: 720px;
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#game-area>div {
+    /* Structure */
+    width: 100%;
+    /* View */
+    background-color: var(--color-black);
+    border: 2px solid var(--color-foreground);
+}
+
+#play-area {
+    /* Structure */
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Codemaker's code */
+
+#codemaker {
+    /* Structure */
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#codemaker h2 {
+    /* Structure */
+    margin-top: 5px;
+    /* View */
+    font-size: 28px;
+}
+
+/* Player guesses */
+
+.guess {
+    /* Structure */
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* View */
+    border-top: 2px solid var(--color-foreground);
+}
+
+/* Color spawners */
+
+#spawners {
+    /* Structure */
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Circles */
+
+#codemaker .circle, #spawners .circle {
+    /* Structure */
+    height: 30px;
+    width: 30px;
+}
+
+.circle {
+    /* Structure */
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    display: inline-block;
+    /* View */
+    background-color: var(--color-background);
+    border: 2px solid var(--color-foreground);
+    border-radius: 50%;
+}
+
+.red {
+    background-color: var(--color-red);
+}
+
+.green {
+    background-color: var(--color-green);
+}
+
+.yellow {
+    background-color: var(--color-yellow);
+}
+
+.blue {
+    background-color: var(--color-blue);
+}
+
+.purple {
+    background-color: var(--color-purple);
+}
+
+.aqua {
+    background-color: var(--color-aqua);
+}
