@@ -103,23 +103,58 @@ nav a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     /* View */
     border-top: 2px solid var(--color-foreground);
 }
 
-.feedback {
+.current {
     position: relative;
 }
 
-.feedback::before {
-    content: '';
-    width: 2px;
-    height: 50px;
-    background-color: var(--color-foreground);
+.current::after {
+    content: '⇐';
+    /* Structure */
     position: absolute;
-    top: -7px;
-    left: -20px;
+    right: -50;
+    /* View */
+    font-size: 36px;
+    color: var(--color-foreground);
+}
+
+.guess .code {
+    /* Structure */
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator {
+    /* Structure */
+    width: 2px;
+    height: 52px;
+    /* View */
+    background-color: var(--color-foreground);
+}
+
+.feedback {
+    /* Structure */
+    height: 100%;
+    width: 120px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    grid-template-rows: 20px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback .circle {
+    /* Structure */
+    height: 13px;
+    width: 13px;
 }
 
 /* Color spawners */
