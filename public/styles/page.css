@@ -36,9 +36,11 @@ body {
 header {
     /* Structure */
     height: 200px;
+    margin-top: 50px;
     display: flex;
-    align-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 header img {
@@ -72,13 +74,14 @@ nav {
 nav a {
     /* Display */
     width: 200px;
-    margin: 10px 0;
+    margin: 15px 0;
     padding: 20px 15px;
     /* View */
     background-color: var(--color-black);
-    border: 5px solid var(--color-foreground);
+    border: 6px solid var(--color-foreground);
     text-align: center;
     font-size: 36px;
+    font-weight: bold;
     text-decoration: none;
     color: var(--color-foreground);
 }
