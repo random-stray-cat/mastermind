@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Mastermind</title>
 
+    <link rel="icon" href="images/logo.png" type="image/png">
+
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/page.css">
     <link rel="stylesheet" href="styles/game.css">
@@ -16,8 +18,9 @@
     </header>
     <main>
         <nav>
+            <a href="#" id="guessBtn">Guess</a>
             <a href="https://en.wikipedia.org/wiki/Mastermind_(board_game)" target="_blank">Rules</a>
-            <a href="#">Quit</a>
+            <a href="index.html">Quit</a>
         </nav>
         <section id="game-area">
             <div id="play-area">
@@ -239,10 +242,10 @@
         </section>
         <section id="statistics">
             <ul>
-                <li><span id="winsGuest">#</span> codes broken</li>
-                <li><span id="winsHost">#</span> masterminds</li>
-                <li><span id="currentGames">#</span> current games</li>
-                <li><span id="playersInQueue">#</span> players in queue</li>
+                <li><span id="winsGuest"></span> codes broken</li>
+                <li><span id="winsHost"></span> masterminds</li>
+                <li><span id="currentGames"></span> current games</li>
+                <li><span id="playersInQueue"></span> players in queue</li>
             </ul>
         </section>
     </footer>

@@ -22,10 +22,11 @@
 header {
     /* Structure */
     height: 100px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 header img {
+    /* Structure */
     height: 100px;
 }
 
@@ -109,6 +110,7 @@ nav a {
 }
 
 .current {
+    /* Structure */
     position: relative;
 }
 
@@ -189,25 +191,31 @@ nav a {
 }
 
 .red {
+    /* View */
     background-color: var(--color-red);
 }
 
 .green {
+    /* View */
     background-color: var(--color-green);
 }
 
 .yellow {
+    /* View */
     background-color: var(--color-yellow);
 }
 
 .blue {
+    /* View */
     background-color: var(--color-blue);
 }
 
 .purple {
+    /* View */
     background-color: var(--color-purple);
 }
 
 .aqua {
+    /* View */
     background-color: var(--color-aqua);
 }
